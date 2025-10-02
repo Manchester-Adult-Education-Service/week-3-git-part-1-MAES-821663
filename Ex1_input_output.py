@@ -14,6 +14,16 @@
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
 
+name = input('What is your name?\n')
+age = input('and your age?\n')
+
+print(f'Hi {name}, you are {age} years old!')
+
+fave_colour = input('What is your favourite colour?\n')
+fave_food = input('And a favourite food?\n')
+
+print(f'So {name} is {age} years old, loves the colour {fave_colour} and {fave_food}!')
+
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
